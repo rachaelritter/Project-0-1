@@ -16,7 +16,7 @@ def printVehicles():
 def main():
     while True: 
         menu()
-        number = input()
+        number = input("Please enter your choice: ")
         if number == "1":  
             printVehicles()
         elif number == "2":
